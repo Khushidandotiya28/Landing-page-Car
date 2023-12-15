@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+ .container{ 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(10, 8, 8) 50%, rgb(58, 58, 71) 50%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+
+    
+
+ }
+
+ .navbar ul{
+    display: flex;
+    margin-left: 13px;
+    margin-top: 7px;
+    
+
+ }
+
+ .navbar ul li{
+    color: white;
+    list-style: none;
+    margin: 30px;
+    font-size: 20px;
+
+ }
+
+ .navbar #logo{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 14px;
+    left: 50%;
+
+ }
+
+ .navbar #logo img{
+    height: 35px;
+    width: 35px;
+    
+
+ }
+
+ .navbar #icon{
+    color: white;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+ }
+
+ .navbar #icon ion-icon{
+    height: 30px;
+    width: 45px;
+ }
+
+ .container h1{
+    font-size: 120px;
+    text-align: center;
+    text-shadow: 8px 8px 8px rgb(34, 33, 40);
+    
+    color: rgb(49, 44, 44);
+ }
+
+ .container #car-image{
+   height: 280px;
+   width: 320px;
+   position: absolute;
+   left: 35%;
+   top: 30%;
+
+
+ }
+
+ .container #car-image img{
+   height: 300px;
+   width: 480px;
+
+ }
+
+ .container #car-info{
+   display: flex;
+   position: absolute;
+   top: 80%;
+   left: 33%;
+ }
+ #car-info .info{
+   margin: 20px;
+ }
+
+ #car-info .info h3{
+   color: white;
+   font-size: 22px;
+   
+   
+ }
+ #car-info .info h5{
+   color: white;
+   font-size: 18px;
+   
+   
+ }
+
+ .container hr{
+   margin-left: 37px;
+   margin-right: 37px;
+ }
+
+ .container .arrow-icon{
+   height: 33px;
+   width: 33px;
+   border: 1px solid white;
+   border-radius: 100%;
+ }
+
+ .container #left-arrow{
+   position: absolute;
+   top: 80%;
+   left: 7%;
+ }
+
+ .container #right-arrow{
+   position: absolute;
+   top: 80%;
+   right: 7%;
+ }
+
+ .container .arrow-icon ion-icon{
+   height: 20px;
+   width: 20px;
+   color: white;
+   padding: 6px;
+ }
+
+
+
